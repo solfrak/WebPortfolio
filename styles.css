@@ -1,0 +1,57 @@
+/* My Color Pallet
+6CCFF6
+EF7B45
+F40076
+0B7A75
+191919
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  background: #191919;
+  scroll-behavior: smooth;
+  color: white;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+.center {
+  width: 100%;
+  align-items: center;
+}
+
+.title {
+  color: #6ccff6;
+  font-size: 3rem;
+}
+.about {
+  display: flex;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  border: 5px white;
+  border-style: solid;
+  margin: 1em;
+  padding: 1em;
+  border-radius: 10px;
+  transition: 300ms;
+}
+a:hover {
+  color: #6ccff6;
+}
+.fa {
+  transition: 300ms;
+}
+a:hover .fa {
+  color: #6ccff6;
+  transform: rotate(180deg);
+}
